@@ -37,7 +37,7 @@ Cachorro(String nome, String cor, double altura, double peso, double tamanhoDoRa
 
 
 //Criei um método (ação) 
-  public void latir(){
+  public void soar(){
     System.out.println("Au au");
   }
   public String pegar(){
@@ -51,5 +51,7 @@ Cachorro(String nome, String cor, double altura, double peso, double tamanhoDoRa
       this.estadoDeEspirito = "neutro";
     }
     return estadoDeEspirito;
+  }
+  public void setEstadoDeEspirito(String string) {
   }
 }
